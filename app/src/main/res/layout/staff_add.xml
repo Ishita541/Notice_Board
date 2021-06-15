@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".staff_add"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+        <EditText
+            android:id="@+id/add_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Name"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/text_background"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+
+        <Spinner
+            android:id="@+id/spinner_add_deptt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/text_background"
+            android:entries="@array/cat" />
+        <Spinner
+            android:id="@+id/spinner_add_desg"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/text_background"
+            android:entries="@array/desig" />
+
+        <EditText
+            android:id="@+id/add_contact"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Contact Number"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/text_background"
+            android:inputType="textPersonName" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/text_background"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Female" />
+        </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/add_staff"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="ADD"
+        android:background="@drawable/button_background"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

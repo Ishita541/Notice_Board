@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Notice Board</string>
+    <string name="title_activity_home_page">home_page</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="cat">
+        <item>Select Deptt...</item>
+        <item>IT</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>GMT</item>
+        <item>FD</item>
+        <item>MOP</item>
+        <item>Applied Sciece</item>
+        <item>Workshop</item>
+        <item>Office/Administration</item>
+        <item>SRC</item>
+        <item>NSS</item>
+        <item>DDO</item>
+        <item>CDTP</item>
+        <item>Exam</item>
+        <item>RTI</item>
+        <item>Grievance Cell</item>
+        <item>Hostel</item>
+        <item>PMKVY</item>
+        <item>Red Cross</item>
+    </string-array>
+
+    <string-array name="msg">
+        <item>Select...</item>
+        <item>Task</item>
+        <item>General</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>Select...</item>
+        <item>High</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="desig">
+        <item>Select Desig...</item>
+        <item>Clerk/Junior Assistent</item>
+        <item>Senior Assistant</item>
+        <item>Superintendent</item>
+        <item>Lecturer</item>
+        <item>Senior Lecturer</item>
+        <item>HOD</item>
+        <item>PIO</item>
+        <item>Nodal Officer</item>
+        <item>Hostel Warden</item>
+        <item>Internal Co-ordinator</item>
+        <item>Project Officer</item>
+        <item>Program Officer</item>
+    </string-array>
+
+    <string name="host">http://10.0.0.26/</string>
+</resources>

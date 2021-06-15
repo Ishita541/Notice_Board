@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compose_page2"
+    android:background="@color/colorPrimary"
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+
+        android:id="@+id/editTextSubject"
+        android:background="@drawable/text_background"
+        android:hint="Subject"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/editTextNote"
+        android:layout_below="@+id/editTextSubject"
+        android:background="@drawable/text_background"
+        android:hint="Brief Note"
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_above="@+id/button3"
+        android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background_attach"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="attach"
+            android:layout_above="@+id/proceed_button2"
+            android:text="Attach File(s)" />
+
+
+
+    <Button
+        android:id="@+id/proceed_button2"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:onClick="proceed"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_background"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:text="Send" />
+
+
+</RelativeLayout>
